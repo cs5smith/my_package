@@ -1,0 +1,17 @@
+Package: SpectraPreprocess
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Chaya",
+           family = "Smith",
+           role = c("student"),
+           email = "first.last@example.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+
+Description: What the package does (one paragraph).
+Takes raw spectra files, coverts to reflectance if absorbance,creates spectral objects with 
+bandwidths, trimmed noise from ends, SNV and smoothing.
+
+License: What license it uses
+Encoding: UTF-8
+LazyData: true
